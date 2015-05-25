@@ -1,0 +1,13 @@
+E:\Roni\FairManagementApp\FairManagementApp\bin\Debug\FairManagementApp.exe.config
+E:\Roni\FairManagementApp\FairManagementApp\bin\Debug\FairManagementApp.exe
+E:\Roni\FairManagementApp\FairManagementApp\bin\Debug\FairManagementApp.pdb
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.MainUI.resources
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.Properties.Resources.resources
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorDetailsUI.resources
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorNumberUI.resources
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.UI.ZoneTypeEntryUI.resources
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.csproj.GenerateResource.Cache
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.exe
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.pdb
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.csprojResolveAssemblyReference.cache
+E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorEntryUI.resources
