@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZoneTypeEntryUI));
             this.zoneTypeListView = new System.Windows.Forms.ListView();
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.saveZoneTypeButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.zoneTypeNameEntryTextBox = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +52,12 @@
             this.zoneTypeListView.UseCompatibleStateImageBehavior = false;
             this.zoneTypeListView.View = System.Windows.Forms.View.Details;
             // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Serial No.";
+            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader2.Width = 79;
+            // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "Zone Type";
@@ -58,6 +65,7 @@
             // 
             // saveZoneTypeButton
             // 
+            this.saveZoneTypeButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.saveZoneTypeButton.Location = new System.Drawing.Point(292, 83);
             this.saveZoneTypeButton.Name = "saveZoneTypeButton";
             this.saveZoneTypeButton.Size = new System.Drawing.Size(75, 23);
@@ -69,9 +77,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 46);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(40, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 13);
+            this.label1.Size = new System.Drawing.Size(89, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Type Name";
             // 
@@ -84,9 +93,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.saveZoneTypeButton);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.zoneTypeNameEntryTextBox);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox1.Location = new System.Drawing.Point(120, 38);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(396, 114);
@@ -94,16 +105,11 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ZoneType";
             // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Serial No.";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 79;
-            // 
             // ZoneTypeEntryUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(636, 409);
             this.Controls.Add(this.zoneTypeListView);
             this.Controls.Add(this.groupBox1);

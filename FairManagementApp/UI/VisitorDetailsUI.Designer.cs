@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VisitorDetailsUI));
             this.loadVisitorListView = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -71,20 +72,23 @@
             // 
             // showButton
             // 
+            this.showButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.showButton.Location = new System.Drawing.Point(398, 55);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(75, 23);
             this.showButton.TabIndex = 9;
             this.showButton.Text = "Show";
-            this.showButton.UseVisualStyleBackColor = true;
+            this.showButton.UseVisualStyleBackColor = false;
             this.showButton.Click += new System.EventHandler(this.showButton_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(128, 60);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(113, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
+            this.label1.Size = new System.Drawing.Size(80, 16);
             this.label1.TabIndex = 8;
             this.label1.Text = "Select Zone";
             // 
@@ -98,16 +102,19 @@
             // 
             // exportToExcelButton
             // 
-            this.exportToExcelButton.Location = new System.Drawing.Point(412, 354);
+            this.exportToExcelButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.exportToExcelButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.exportToExcelButton.Location = new System.Drawing.Point(412, 318);
             this.exportToExcelButton.Name = "exportToExcelButton";
             this.exportToExcelButton.Size = new System.Drawing.Size(99, 23);
             this.exportToExcelButton.TabIndex = 13;
             this.exportToExcelButton.Text = "Export to Excel";
-            this.exportToExcelButton.UseVisualStyleBackColor = true;
+            this.exportToExcelButton.UseVisualStyleBackColor = false;
+            this.exportToExcelButton.Click += new System.EventHandler(this.exportToExcelButton_Click);
             // 
             // totalTextBox
             // 
-            this.totalTextBox.Location = new System.Drawing.Point(408, 317);
+            this.totalTextBox.Location = new System.Drawing.Point(280, 320);
             this.totalTextBox.Name = "totalTextBox";
             this.totalTextBox.Size = new System.Drawing.Size(100, 20);
             this.totalTextBox.TabIndex = 12;
@@ -115,9 +122,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(349, 320);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(224, 321);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
+            this.label2.Size = new System.Drawing.Size(39, 16);
             this.label2.TabIndex = 11;
             this.label2.Text = "Total";
             // 
@@ -125,6 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(625, 389);
             this.Controls.Add(this.loadVisitorListView);
             this.Controls.Add(this.showButton);
@@ -133,8 +143,10 @@
             this.Controls.Add(this.exportToExcelButton);
             this.Controls.Add(this.totalTextBox);
             this.Controls.Add(this.label2);
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Name = "VisitorDetailsUI";
             this.Text = "Zone Type Wise Visitor Information Report";
+            this.Load += new System.EventHandler(this.VisitorDetailsUI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

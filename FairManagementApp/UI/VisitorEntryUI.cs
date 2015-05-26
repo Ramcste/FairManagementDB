@@ -84,9 +84,8 @@ namespace FairManagementApp.UI
             visitor.ContactNo = contactNoTextBox.Text;
 
             MessageBox.Show(visitorManager.Save(visitor));
-
-           // GetTextBoxesClear();
-           // GetAllCheckBoxes();
+            GetTextBoxesClear();
+           
 
         }
 

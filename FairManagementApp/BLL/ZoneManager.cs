@@ -41,6 +41,10 @@ namespace FairManagementApp.BLL
 
         }
 
+        public int GetTotalNoOfVisitors()
+        {
+            return zoneGateway.GetTotalVisitors();
+        }
         
     }
 }

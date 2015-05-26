@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VisitorEntryUI));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.contactNoTextBox = new System.Windows.Forms.TextBox();
@@ -42,6 +43,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.contactNoTextBox);
             this.groupBox1.Controls.Add(this.label2);
@@ -49,6 +51,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.nameTextBox);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.groupBox1.Location = new System.Drawing.Point(24, 20);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(669, 182);
@@ -112,10 +115,12 @@
             // 
             // showZoneGroupBox
             // 
+            this.showZoneGroupBox.BackColor = System.Drawing.Color.Transparent;
             this.showZoneGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showZoneGroupBox.Location = new System.Drawing.Point(24, 219);
+            this.showZoneGroupBox.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.showZoneGroupBox.Location = new System.Drawing.Point(24, 208);
             this.showZoneGroupBox.Name = "showZoneGroupBox";
-            this.showZoneGroupBox.Size = new System.Drawing.Size(669, 259);
+            this.showZoneGroupBox.Size = new System.Drawing.Size(669, 292);
             this.showZoneGroupBox.TabIndex = 1;
             this.showZoneGroupBox.TabStop = false;
             this.showZoneGroupBox.Text = "Zone type visitor want to visit";
@@ -123,7 +128,7 @@
             // saveVisitorButton
             // 
             this.saveVisitorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveVisitorButton.Location = new System.Drawing.Point(570, 484);
+            this.saveVisitorButton.Location = new System.Drawing.Point(576, 506);
             this.saveVisitorButton.Name = "saveVisitorButton";
             this.saveVisitorButton.Size = new System.Drawing.Size(84, 33);
             this.saveVisitorButton.TabIndex = 2;
@@ -135,6 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(724, 541);
             this.Controls.Add(this.saveVisitorButton);
             this.Controls.Add(this.showZoneGroupBox);

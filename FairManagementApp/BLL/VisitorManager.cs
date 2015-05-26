@@ -78,5 +78,9 @@ namespace FairManagementApp.BLL
         }
 
 
+        public List<Visitor> GetAllVisitorListByZoneTypeName(string name)
+        {
+            return visitorGateway.GetVisitorsList(name);
+        } 
     }
 }

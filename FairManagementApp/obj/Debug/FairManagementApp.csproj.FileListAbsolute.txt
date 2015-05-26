@@ -11,18 +11,6 @@ E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.exe
 E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.pdb
 E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.csprojResolveAssemblyReference.cache
 E:\Roni\FairManagementApp\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorEntryUI.resources
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.exe.config
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.exe
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.pdb
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.MainUI.resources
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.Properties.Resources.resources
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorDetailsUI.resources
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorEntryUI.resources
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorNumberUI.resources
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.UI.ZoneTypeEntryUI.resources
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.csproj.GenerateResource.Cache
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.exe
-C:\Users\Ram\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.pdb
 H:\Workspace\Visual Studio 2013\Projects\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.exe.config
 H:\Workspace\Visual Studio 2013\Projects\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.exe
 H:\Workspace\Visual Studio 2013\Projects\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.pdb
@@ -36,3 +24,17 @@ H:\Workspace\Visual Studio 2013\Projects\FairManagementDB\FairManagementApp\obj\
 H:\Workspace\Visual Studio 2013\Projects\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.csproj.GenerateResource.Cache
 H:\Workspace\Visual Studio 2013\Projects\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.exe
 H:\Workspace\Visual Studio 2013\Projects\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.pdb
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.exe.config
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.exe
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\bin\Debug\FairManagementApp.pdb
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.MainUI.resources
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.Properties.Resources.resources
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorDetailsUI.resources
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorEntryUI.resources
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.UI.VisitorNumberUI.resources
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.UI.ZoneTypeEntryUI.resources
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.csproj.GenerateResource.Cache
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.exe
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.pdb
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.csprojResolveAssemblyReference.cache
+C:\Users\RAM\Desktop\Ramesh\FairManagementDB\FairManagementApp\obj\Debug\FairManagementApp.csproj.ResolveComReference.cache

@@ -49,9 +49,10 @@ namespace FairManagementApp.BLL
             while (reader.Read())
             {
                Zone zone=new Zone();
+               
                 zone.Id = int.Parse(reader["z_Id"].ToString());
                 zone.TypeName = reader["z_TypeName"].ToString();
-               // zone.NoOfVisitors = int.Parse(reader["z_NoOfVisitors"].ToString());
+                zone.NoOfVisitors = int.Parse(reader["z_NoOfVisitors"].ToString());
             
                 ZonesList.Add(zone);
 
@@ -64,42 +65,32 @@ namespace FairManagementApp.BLL
 
         }
 
+        public int GetTotalVisitors()
+        {
+            int totalvisitors = 0;
+            SqlConnection connection = new SqlConnection(connectionString);
+            string query = "SELECT SUM(z_NoOfVisitors) FROM tbl_Zone";
 
-       
+            SqlCommand command = new SqlCommand(query, connection);
 
-        //public List<Visitor>  GetVisitor(string zonename)
-        //{
-        //    List<Visitor> visitorList = new List<Visitor>();
+            connection.Open();
 
-        //    SqlConnection connection = new SqlConnection(connectionString);
-        //    string query = "SELECT v_Name,v_Email,v_ContactNo FROM tbl_Zone WHERE ";
+            SqlDataReader reader = command.ExecuteReader();
 
-        //    SqlCommand command = new SqlCommand(query, connection);
+            while (reader.Read())
+            {
+              
+                totalvisitors = int.Parse(reader[0].ToString());
 
-        //    connection.Open();
-
-        //    SqlDataReader reader = command.ExecuteReader();
-
-        //    while (reader.Read())
-        //    {
-        //        Visitor visitor = new Visitor();
-        //        visitor.Name = reader["v_Name"].ToString();
-        //        visitor.Email = reader["v_Email"].ToString();
-        //        visitor.ContactNo = reader["v_ContactNo"].ToString();
-
-        //        visitorList.Add(visitor);
-
-        //    }
+            }
 
 
-        //    reader.Close();
-        //    connection.Close();
-        //    return visitorList;
+            reader.Close();
+            connection.Close();
+            return totalvisitors;
 
 
-        //}
-
-
+        }
     
 
     }
