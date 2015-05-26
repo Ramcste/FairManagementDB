@@ -30,5 +30,23 @@ namespace FairManagementApp
 
             visitorEntryUi.Show();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void zoneSpecificVisitorDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VisitorDetailsUI visitorDetailsUi = new VisitorDetailsUI();
+            visitorDetailsUi.Show();
+        }
+
+        private void zoneWiseVisitorNumberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VisitorNumberUI visitorNumberUi = new VisitorNumberUI();
+            visitorNumberUi.Show();
+
+        }
     }
 }

@@ -77,6 +77,7 @@
             this.showButton.TabIndex = 9;
             this.showButton.Text = "Show";
             this.showButton.UseVisualStyleBackColor = true;
+            this.showButton.Click += new System.EventHandler(this.showButton_Click);
             // 
             // label1
             // 

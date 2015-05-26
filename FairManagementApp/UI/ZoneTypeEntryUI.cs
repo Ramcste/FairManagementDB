@@ -27,8 +27,14 @@ namespace FairManagementApp.UI
             zone.TypeName = zoneTypeNameEntryTextBox.Text;
 
            MessageBox.Show(zoneManager.Save(zone));
+           GetClearTextBoxes();
            GetAllZoneList();
 
+        }
+
+        private void GetClearTextBoxes()
+        {
+            zoneTypeNameEntryTextBox.Text = "";
         }
 
         public void GetAllZoneList()

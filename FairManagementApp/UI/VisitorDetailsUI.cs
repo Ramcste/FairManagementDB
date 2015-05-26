@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FairManagementApp.BLL;
+using FairManagementApp.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,24 @@ namespace FairManagementApp.UI
         public VisitorDetailsUI()
         {
             InitializeComponent();
+
+            LoadComboBoxInfo();
         }
+
+        ZoneManager zoneManager = new ZoneManager();
+        public void LoadComboBoxInfo()
+        {
+
+            selectZoneComboBox.DataSource = zoneManager.GetAllZones();
+            selectZoneComboBox.DisplayMember ="TypeName";
+            selectZoneComboBox.ValueMember = "Id";
+        
+        }
+
+        private void showButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

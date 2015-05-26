@@ -40,5 +40,7 @@ namespace FairManagementApp.BLL
             return zoneGateway.GetZones();
 
         }
+
+        
     }
 }

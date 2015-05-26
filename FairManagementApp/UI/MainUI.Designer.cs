@@ -71,8 +71,9 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // setupToolStripMenuItem
             // 
@@ -85,7 +86,7 @@
             // zoneTypeToolStripMenuItem
             // 
             this.zoneTypeToolStripMenuItem.Name = "zoneTypeToolStripMenuItem";
-            this.zoneTypeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.zoneTypeToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.zoneTypeToolStripMenuItem.Text = "Zone Type";
             this.zoneTypeToolStripMenuItem.Click += new System.EventHandler(this.zoneTypeToolStripMenuItem_Click);
             // 
@@ -103,12 +104,14 @@
             this.zoneSpecificVisitorDetailsToolStripMenuItem.Name = "zoneSpecificVisitorDetailsToolStripMenuItem";
             this.zoneSpecificVisitorDetailsToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.zoneSpecificVisitorDetailsToolStripMenuItem.Text = "Zone Specific Visitor Details";
+            this.zoneSpecificVisitorDetailsToolStripMenuItem.Click += new System.EventHandler(this.zoneSpecificVisitorDetailsToolStripMenuItem_Click);
             // 
             // zoneWiseVisitorNumberToolStripMenuItem
             // 
             this.zoneWiseVisitorNumberToolStripMenuItem.Name = "zoneWiseVisitorNumberToolStripMenuItem";
             this.zoneWiseVisitorNumberToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.zoneWiseVisitorNumberToolStripMenuItem.Text = "Zone Wise Visitor Number";
+            this.zoneWiseVisitorNumberToolStripMenuItem.Click += new System.EventHandler(this.zoneWiseVisitorNumberToolStripMenuItem_Click);
             // 
             // MainUI
             // 
