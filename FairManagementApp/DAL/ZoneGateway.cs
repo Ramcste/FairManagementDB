@@ -14,6 +14,7 @@ namespace FairManagementApp.BLL
     {
         public string connectionString =  ConfigurationManager.ConnectionStrings["FairConnectionString"].ConnectionString;
 
+    
         public int Save(Zone zone)
         {
             zone.NoOfVisitors = 1;
@@ -53,9 +54,9 @@ namespace FairManagementApp.BLL
                 zone.Id = int.Parse(reader["z_Id"].ToString());
                 zone.TypeName = reader["z_TypeName"].ToString();
                 zone.NoOfVisitors = int.Parse(reader["z_NoOfVisitors"].ToString());
-            
+               
                 ZonesList.Add(zone);
-
+               
             }
             
                 
@@ -91,7 +92,35 @@ namespace FairManagementApp.BLL
 
 
         }
-    
+
+
+        public int GetCountZoneType()
+        {
+            int type = 0;
+
+            SqlConnection connection = new SqlConnection(connectionString);
+            string query = "SELECT Count(z_Id) FROM tbl_Zone";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            connection.Open();
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+
+                type += int.Parse(reader[0].ToString());
+
+            }
+
+
+            reader.Close();
+            connection.Close();
+            return type;
+
+
+        }
 
     }
 }

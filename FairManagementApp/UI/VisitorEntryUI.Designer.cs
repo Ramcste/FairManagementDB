@@ -145,6 +145,7 @@
             this.Controls.Add(this.saveVisitorButton);
             this.Controls.Add(this.showZoneGroupBox);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
             this.Name = "VisitorEntryUI";
             this.Text = "Visitor Entry";
             this.Load += new System.EventHandler(this.Visitor_Entry_Load);

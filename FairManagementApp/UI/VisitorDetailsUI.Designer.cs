@@ -144,6 +144,7 @@
             this.Controls.Add(this.totalTextBox);
             this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.MaximizeBox = false;
             this.Name = "VisitorDetailsUI";
             this.Text = "Zone Type Wise Visitor Information Report";
             this.Load += new System.EventHandler(this.VisitorDetailsUI_Load);

@@ -64,7 +64,7 @@ namespace FairManagementApp.UI
 
         private void exportToExcelButton_Click(object sender, EventArgs e)
         {
-            StringBuilder sb = new StringBuilder();
+           // StringBuilder sb = new StringBuilder();
 
             Microsoft.Office.Interop.Excel.Application xla = new Microsoft.Office.Interop.Excel.Application();
             xla.Visible = true;

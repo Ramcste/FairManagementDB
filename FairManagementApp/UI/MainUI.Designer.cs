@@ -148,6 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
+            this.MaximizeBox = false;
             this.Name = "MainUI";
             this.Text = "Fair Management  App UI";
             this.menuStrip1.ResumeLayout(false);

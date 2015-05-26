@@ -87,6 +87,7 @@
             this.Controls.Add(this.visitorNumberListView);
             this.Controls.Add(this.totalTextBox);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "VisitorNumberUI";
             this.Text = "VisitorNumberUI";
             this.ResumeLayout(false);

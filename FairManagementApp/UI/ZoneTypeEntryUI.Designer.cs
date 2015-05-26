@@ -113,6 +113,7 @@
             this.ClientSize = new System.Drawing.Size(636, 409);
             this.Controls.Add(this.zoneTypeListView);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
             this.Name = "ZoneTypeEntryUI";
             this.Text = "Zone Type Entry UI";
             this.Load += new System.EventHandler(this.ZoneTypeEntryUI_Load);

@@ -14,10 +14,18 @@ namespace FairManagementApp.BLL
 
         public string Save(Zone zone)
         {
+            int totalzonetype = zoneGateway.GetCountZoneType();
+
             if (zone.TypeName == string.Empty)
             {
                 return "Zone Name is missing";
             }
+
+            else if (totalzonetype < 9)
+            {
+                return "We can't create more than 8 Zone";
+            }
+
             else
             {
                 int value = zoneGateway.Save(zone);
