@@ -17,7 +17,6 @@ namespace FairManagementApp.BLL
     
         public int Save(Zone zone)
         {
-            zone.NoOfVisitors = 1;
 
             SqlConnection connection = new SqlConnection(connectionString);
 
@@ -118,6 +117,35 @@ namespace FairManagementApp.BLL
             reader.Close();
             connection.Close();
             return type;
+
+
+        }
+
+
+        public bool IsThisZoneExists(string name)
+        {
+            bool isZoneExists = false;
+
+            SqlConnection connection = new SqlConnection(connectionString);
+
+            string query = "SELECT z_TypeName FROM tbl_Zone WHERE z_TypeName='" + name + "'";
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            connection.Open();
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                isZoneExists = true;
+                break;
+            }
+
+            reader.Close();
+            connection.Close();
+            return isZoneExists;
+
 
 
         }

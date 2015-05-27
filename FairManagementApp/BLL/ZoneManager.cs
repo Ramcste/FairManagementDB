@@ -19,13 +19,13 @@ namespace FairManagementApp.BLL
             if (zone.TypeName == string.Empty)
             {
                 return "Zone Name is missing";
-            }
-
-            else if (totalzonetype < 9)
+            } 
+        
+            else if (zoneGateway.IsThisZoneExists(zone.TypeName))
             {
-                return "We can't create more than 8 Zone";
+                return "This Zone already Exists";
             }
-
+            
             else
             {
                 int value = zoneGateway.Save(zone);

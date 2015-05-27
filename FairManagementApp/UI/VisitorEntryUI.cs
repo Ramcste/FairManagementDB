@@ -56,7 +56,7 @@ namespace FairManagementApp.UI
         {
 
             List<string> checkBoxList = new List<string>();
-            int count = 0;
+           
             foreach (Control c in showZoneGroupBox.Controls)
             {
 
@@ -85,7 +85,7 @@ namespace FairManagementApp.UI
 
             MessageBox.Show(visitorManager.Save(visitor));
             GetTextBoxesClear();
-           
+         
 
         }
 

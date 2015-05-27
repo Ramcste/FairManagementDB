@@ -66,6 +66,7 @@ namespace FairManagementApp.UI
         {
            // StringBuilder sb = new StringBuilder();
 
+            string zonename =selectZoneComboBox.Text;
             Microsoft.Office.Interop.Excel.Application xla = new Microsoft.Office.Interop.Excel.Application();
             xla.Visible = true;
 
@@ -77,7 +78,10 @@ namespace FairManagementApp.UI
             int i = 1;
 
             int j = 1;
-            
+            ws.Cells[i, j+1] = "Digital Innovation Fair 2015";
+            i++;
+            ws.Cells[i, j+1] ="List Of People Visited "+zonename;
+            i++;
             ws.Cells[i, j] = "Name";
             ws.Cells[i, j + 1] = "Email";
             ws.Cells[i, j + 2] = "Contact No.";

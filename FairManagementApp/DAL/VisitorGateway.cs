@@ -48,7 +48,7 @@ namespace FairManagementApp.BLL
            
             connection.Close();
            // MessageBox.Show(vid.ToString());
-            int increment = 1;
+       
             connection.Open();
             foreach (int id in selectedZoneId)
             {
